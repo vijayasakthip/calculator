@@ -1,0 +1,21 @@
+
+
+.c{
+    color: orange;
+}
+#equal{
+    background-color: orange;
+    color: white;
+}
+.button{
+    border-radius: 50%;
+    width: 52px;
+    height: 52px;
+    font-size: 30px;
+    margin: 5px;
+    cursor: pointer;
+    
+
+   
+    
+}

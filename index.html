@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+   .col
+   {
+    background-color: black;
+    color: white;
+    width: 350px;
+    position: relative;
+    left: 38%;
+   }
+@media (max-width:500px){
+.col{
+left: auto;
+right: auto;
+width: 370px;
+}
+}
+    </style>
+</head>
+<body>
+    <div class="row">
+    
+            <div class="col" style="text-align: center;">
+                <h1 style="color:white" >Calculator</h1>
+                <hr>
+        <input type="text" id="display" style="height: 30px;width: 250px;font-size: 20px;">    
+            
+            <br>
+                <button onclick="clr()" class="button c  " value="C">C</button>
+                <button onclick="del()" class="button c" value="del">del</button>
+                <button onclick="display('%')" class="button c" value="%" >%</button>
+                <button onclick="display('/')" class="button c" value="/" >/</button>
+                <br>
+            
+                <button onclick="display('7')" class="button " value="7" >7</button>
+                <button onclick="display('8')" class="button " value="8">8</button>
+                <button onclick="display('9')" class="button " value="9" >9</button>
+                <button onclick="display('*')" class="button c"value="*" >*</button>
+                <br>
+                <button onclick="display('4')" class="button " value="4"  >4</button>
+                <button onclick="display('5')" class="button " value="5" >5</button>
+                <button onclick="display('6')" class="button"  value="6">6</button>
+                <button onclick="display('-')" class="button c"value="-" >-</button>
+                <br>
+                <button onclick="display('1')" class="button"  value="1" >1</button>
+                <button onclick="display('2')" class="button"  value="2" >2</button>
+                <button onclick="display('3')" class="button"  value="3" >3</button>
+                <button onclick="display('+')" class="button c"value="+" >+</button>
+                <br>
+                <button onclick="display('0')" class="button"  value="0" >0</button>
+                <button onclick="display('.')"class="button"   value="." >.</button>
+                <button onclick="calculate()" class="button"  value="=" id="equal">=</button>
+    
+                
+          
+        </div>
+        
+        </div>
+        
+    <script src="index.js">
+
+    </script>
+</body>
+</html>
