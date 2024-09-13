@@ -1,21 +1,16 @@
+.button {
+    border-radius: 50%;
+    font-size: 25px;
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+}
 
-
-.c{
+.o {
     color: orange;
 }
-#equal{
+
+#equal {
     background-color: orange;
     color: white;
-}
-.button{
-    border-radius: 50%;
-    width: 52px;
-    height: 52px;
-    font-size: 30px;
-    margin: 5px;
-    cursor: pointer;
-    
-
-   
-    
 }
